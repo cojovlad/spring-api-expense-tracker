@@ -1,7 +1,6 @@
-package repository;
+package com.example.spring_api_expense_tracker.repository;
 
-import entity.Expense;
-import jakarta.transaction.Transactional;
+import com.example.spring_api_expense_tracker.entity.Expense;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

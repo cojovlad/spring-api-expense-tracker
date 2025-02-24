@@ -1,8 +1,7 @@
-package entity;
+package com.example.spring_api_expense_tracker.entity;
 
 import jakarta.persistence.*;
 import org.springframework.format.annotation.DateTimeFormat;
-import org.springframework.web.bind.annotation.CookieValue;
 
 import java.util.Date;
 

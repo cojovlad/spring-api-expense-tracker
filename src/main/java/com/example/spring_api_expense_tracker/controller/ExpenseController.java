@@ -1,10 +1,10 @@
-package controller;
+package com.example.spring_api_expense_tracker.controller;
 
-import entity.Expense;
+import com.example.spring_api_expense_tracker.entity.Expense;
+import com.example.spring_api_expense_tracker.repository.ExpenseRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.format.annotation.DateTimeFormat;
 import org.springframework.web.bind.annotation.*;
-import repository.ExpenseRepository;
 
 import java.util.Date;
 import java.util.List;
